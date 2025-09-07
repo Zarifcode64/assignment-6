@@ -31,3 +31,30 @@ Arrow function holo ekta short syntax function likhar jonno. function keyword ch
 const sum = (a, b) => a + b;
 
 
+4) How does destructuring assignment work in ES6?
+
+
+Destructuring diye array ba object theke value alada kore variable e rakha jai easily.
+
+Array destructuring
+const numbers = [1, 2, 3];
+const [a, b] = numbers; // a = 1, b = 2
+
+Object destructuring
+
+const person = { name: "Rahim", age: 25 };
+const { name, age } = person; // name = "Rahim", age = 25
+
+
+5) Explain template literals in ES6. How are they different from string concatenation?
+
+Example
+const name = "Rahim";
+const greeting = `Hello, ${name}!`; // "Hello, Rahim!"
+
+String concatenation diye korle
+const greeting = "Hello, " + name + "!";
+
+Template literals diye code beshi readable hoi.
+Multi-line string easily likha jai.
+Dynamic string create kora easy hoi.
